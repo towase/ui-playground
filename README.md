@@ -1,5 +1,5 @@
 # Playground For Frontend
-https://stomy13.github.io/ui-playground
+https://towase.github.io/ui-playground
 
 # Tasks
 - [ ] Renovate
