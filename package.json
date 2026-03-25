@@ -2,7 +2,7 @@
   "name": "ui-playground",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://stomy13.github.io/ui-playground",
+  "homepage": "https://towase.github.io/ui-playground",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
