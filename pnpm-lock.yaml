@@ -12,8 +12,8 @@ importers:
         specifier: ^1.8.2
         version: 1.8.2(react@19.2.7)
       '@conform-to/valibot':
-        specifier: ^1.8.2
-        version: 1.8.2(valibot@1.2.0(typescript@5.8.3))
+        specifier: ^1.19.4
+        version: 1.19.4(valibot@1.2.0(typescript@5.8.3))
       '@conform-to/zod':
         specifier: ^1.8.2
         version: 1.8.2(zod@3.25.64)
@@ -339,6 +339,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@conform-to/dom@1.19.4':
+    resolution: {integrity: sha512-P/mBdVRl946iE74TXmF5YLY9+1IDrQzxKdj9A7qv7Cd4l/O02EvJskg3X7cHwhmFFIXXgNzSmf/y4B597SS4gg==}
+
   '@conform-to/dom@1.8.2':
     resolution: {integrity: sha512-5eDqI9366+23Fl/E5zxebuy2FCebJKpSrdE/c6PZQ5Ul59BYQ17pBmkLkvxAKjPXW+Qq77BJyjGjuklwmqN08A==}
 
@@ -347,8 +350,8 @@ packages:
     peerDependencies:
       react: '>=18'
 
-  '@conform-to/valibot@1.8.2':
-    resolution: {integrity: sha512-IhR4scpou0CUL3Q5HedrepGn8oLCNbuhO53569ZCBFDL2lXorSv+k8JPKZ03JPYsjdQC79EkTDd24NA+jZiSrA==}
+  '@conform-to/valibot@1.19.4':
+    resolution: {integrity: sha512-aAKgNpvycZNK9JIzmWu7Q/ogULRYKTeKsMmWS9h04dZH8jjBe0AKiE7WTWJosGOZjq2Ce/arm7D9//9QmGgyIA==}
     peerDependencies:
       valibot: '>= 0.32.0'
 
@@ -2513,6 +2516,8 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
+  '@conform-to/dom@1.19.4': {}
+
   '@conform-to/dom@1.8.2': {}
 
   '@conform-to/react@1.8.2(react@19.2.7)':
@@ -2520,9 +2525,9 @@ snapshots:
       '@conform-to/dom': 1.8.2
       react: 19.2.7
 
-  '@conform-to/valibot@1.8.2(valibot@1.2.0(typescript@5.8.3))':
+  '@conform-to/valibot@1.19.4(valibot@1.2.0(typescript@5.8.3))':
     dependencies:
-      '@conform-to/dom': 1.8.2
+      '@conform-to/dom': 1.19.4
       valibot: 1.2.0(typescript@5.8.3)
 
   '@conform-to/zod@1.8.2(zod@3.25.64)':
