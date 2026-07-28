@@ -32,7 +32,7 @@
     "@tanstack/react-router": "^1.170.16",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "react-error-boundary": "^6.0.0",
+    "react-error-boundary": "^6.1.2",
     "react-hook-form": "^7.62.0",
     "uuid": "^11.1.0",
     "valibot": "^1.4.2",
