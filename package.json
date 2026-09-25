@@ -18,25 +18,25 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@conform-to/react": "^1.8.2",
-    "@conform-to/valibot": "^1.19.4",
-    "@conform-to/zod": "^1.8.2",
+    "@conform-to/react": "^1.21.1",
+    "@conform-to/valibot": "^1.21.1",
+    "@conform-to/zod": "^1.21.1",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@hookform/resolvers": "^5.2.1",
-    "@mui/icons-material": "^7.1.1",
-    "@mui/material": "^7.1.1",
-    "@mui/system": "^7.1.1",
+    "@mui/icons-material": "^9.4.0",
+    "@mui/material": "^9.4.0",
+    "@mui/system": "^9.4.0",
     "@tanstack/react-query": "^5.101.2",
     "@tanstack/react-query-devtools": "^5.101.2",
     "@tanstack/react-router": "^1.170.16",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "react-error-boundary": "^6.0.0",
+    "react-error-boundary": "^6.1.6",
     "react-hook-form": "^7.62.0",
     "uuid": "^11.1.0",
     "valibot": "^1.4.2",
-    "zod": "^3.23.0",
+    "zod": "^4.4.3",
     "zustand": "^5.0.5"
   },
   "devDependencies": {
@@ -50,12 +50,12 @@
     "@types/react-dom": "19.2.3",
     "@types/uuid": "^10.0.0",
     "@vitejs/plugin-react": "^4.5.2",
-    "@vitejs/plugin-react-swc": "^3.10.2",
+    "@vitejs/plugin-react-swc": "^4.3.3",
     "gh-pages": "^6.3.0",
     "immer": "^10.1.1",
     "typescript": "^5.8.3",
     "vite": "^6.4.3",
-    "vitest": "^3.2.6"
+    "vitest": "^4.1.11"
   },
   "packageManager": "pnpm@10.17.1",
   "volta": {

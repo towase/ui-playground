@@ -205,7 +205,7 @@ export function FormReactHookFormValibot() {
                 color="secondary"
                 size="small"
               />
-              <Typography variant="caption" display="block" sx={{ mt: 1 }}>
+              <Typography variant="caption" sx={{ display: 'block', mt: 1 }}>
                 データはLocalStorageに保存されました
               </Typography>
             </Box>

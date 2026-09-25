@@ -4,7 +4,7 @@ import {
   getSelectProps,
   useForm,
 } from '@conform-to/react'
-import { parseWithZod } from '@conform-to/zod'
+import { parseWithZod } from '@conform-to/zod/v4'
 import {
   Box,
   Button,
@@ -198,7 +198,7 @@ export function FormZod() {
           {state.success && state.data && (
             <Box sx={{ mt: 1 }}>
               <Chip label="Zod で検証済み" color="primary" size="small" />
-              <Typography variant="caption" display="block" sx={{ mt: 1 }}>
+              <Typography variant="caption" sx={{ display: 'block', mt: 1 }}>
                 データはLocalStorageに保存されました
               </Typography>
             </Box>
