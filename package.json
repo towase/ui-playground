@@ -37,7 +37,7 @@
     "uuid": "^11.1.0",
     "valibot": "^1.5.0",
     "zod": "^4.6.5",
-    "zustand": "^5.0.5"
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
